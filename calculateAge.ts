@@ -14,6 +14,6 @@ function calculateAge(birthdate: string): number {
 }
 
 // Example usage
-const birthdate = "1990-05-14";  // Replace with your birthdate
+const birthdate = "1990-05-14";  // Replace with your birthdate__
 const age = calculateAge(birthdate);
 console.log(`Your age is: ${age}`);
