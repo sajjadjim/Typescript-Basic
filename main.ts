@@ -5,7 +5,7 @@ let isActive: boolean = true;
 
 // Function with parameter and return type
 function greet(name: string): string {
-    return `Hello, ${name}!`;
+    return `Hello my name is, ${name}!`;
 }
 
 // Interface code
