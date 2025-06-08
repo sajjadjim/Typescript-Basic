@@ -8,7 +8,7 @@ function greet(name: string): string {
     return `Hello, ${name}!`;
 }
 
-// Interface
+// Interface code
 interface User {
     name: string;
     age: number;
