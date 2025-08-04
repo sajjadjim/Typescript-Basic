@@ -50,3 +50,43 @@ console.log(result);
     min: 0
 }
 */
+// Another example usage:
+const moreNumbers = [5, -3, 12, 8, -1, 0, 4];
+const analysis = analyzeNumbers(moreNumbers);
+console.log(analysis);
+/*
+{
+    filtered: [5, 12, 8, 0, 4],
+    sum: 29,
+    average: 5.8,
+    max: 12,
+    min: 0
+}
+*/
+
+// Edge case: all negative numbers
+const negativeNumbers = [-10, -20, -30];
+const negativeAnalysis = analyzeNumbers(negativeNumbers);
+console.log(negativeAnalysis);
+/*
+{
+    filtered: [],
+    sum: 0,
+    average: 0,
+    max: 0,
+    min: 0
+}
+*/
+
+// Edge case: empty array
+const emptyAnalysis = analyzeNumbers([]);
+console.log(emptyAnalysis);
+/*
+{
+    filtered: [],
+    sum: 0,
+    average: 0,
+    max: 0,
+    min: 0
+}
+*/
