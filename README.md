@@ -31,3 +31,33 @@ A beginner-friendly repository to learn and practice TypeScript fundamentals.
 ## License
 
 This project is licensed under the MIT License.
+
+
+## Running PHP Files Locally with XAMPP
+
+To run PHP files locally using XAMPP:
+
+1. **Install XAMPP:**  
+    Download and install XAMPP from [apachefriends.org](https://www.apachefriends.org/index.html).
+
+2. **Place your PHP files:**  
+    Copy your PHP files into the `htdocs` directory inside your XAMPP installation folder (e.g., `C:\xampp\htdocs\your-project`).
+
+3. **Start Apache server:**  
+    Open the XAMPP Control Panel and start the Apache module.
+
+4. **Access your PHP file in the browser:**  
+    Open your web browser and go to:  
+    ```
+    http://localhost/your-project/yourfile.php
+    ```
+
+### Example `hello.php`
+
+```php
+<?php
+echo "Hello, World!";
+?>
+```
+
+Place this file in your project folder inside `htdocs` and access it as described above.
