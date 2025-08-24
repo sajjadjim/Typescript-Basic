@@ -3,5 +3,6 @@ function greet(name: string): string {
 }
 ////////--------------------------------
 //--------------------  TypeScript
+//  Basic Syntax
 const userName = "Sajjad";
 console.log(greet(userName));
