@@ -29,6 +29,6 @@ class Person implements User {
 }
 
 // Using the class and function
-const user1 = new Person("Jim", 25, true);
+const user1 = new Person("SAJJAD HOSSAIN Jim", 25, true);
 console.log(greet(user1.name));
 user1.displayInfo();
