@@ -6,7 +6,7 @@ interface Product {
     inStock: boolean;
 }
 
-// Class implementing the Product interface
+
 class StoreItem implements Product {
     constructor(
         public id: number,
