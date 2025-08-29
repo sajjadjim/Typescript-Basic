@@ -107,12 +107,12 @@ library.addBook({ id: 3, title: "The Hobbit", author: "J.R.R. Tolkien", genre: G
 library.addUser({ id: 1, name: "Sajjad Hossain JIM", borrowedBooks: [] });
 library.addUser({ id: 2, name: "Salma Labanna", borrowedBooks: [] });
 
-console.log(library.borrowBook(1, 1)); // Alice borrows "1984"
-console.log(library.borrowBook(2, 2)); // Bob borrows "A Brief History of Time"
+console.log(library.borrowBook(1, 1)); // Sajjad Hossain Jim borrows "1984"
+console.log(library.borrowBook(2, 2)); // Salma Labanna borrows "A Brief History of Time"
 console.log(library.borrowBook(1, 2)); // Book is not available
 
 console.log("Available Books:", library.listAvailableBooks());
-console.log("Alice's Books:", library.listUserBorrowedBooks(1));
+console.log("Sajjad Hossain Jim's Books:", library.listUserBorrowedBooks(1));
 
-console.log(library.returnBook(1, 1)); // Alice returns "1984"
+console.log(library.returnBook(1, 1)); // Sajjad Hossain Jim returns "1984"
 console.log("Available Books after return:", library.listAvailableBooks());
