@@ -104,8 +104,8 @@ library.addBook({ id: 1, title: "1984", author: "George Orwell", genre: Genre.Fi
 library.addBook({ id: 2, title: "A Brief History of Time", author: "Stephen Hawking", genre: Genre.Science, available: true });
 library.addBook({ id: 3, title: "The Hobbit", author: "J.R.R. Tolkien", genre: Genre.Fantasy, available: true });
 
-library.addUser({ id: 1, name: "Alice", borrowedBooks: [] });
-library.addUser({ id: 2, name: "Bob", borrowedBooks: [] });
+library.addUser({ id: 1, name: "Sajjad Hossain JIM", borrowedBooks: [] });
+library.addUser({ id: 2, name: "Salma Labanna", borrowedBooks: [] });
 
 console.log(library.borrowBook(1, 1)); // Alice borrows "1984"
 console.log(library.borrowBook(2, 2)); // Bob borrows "A Brief History of Time"
