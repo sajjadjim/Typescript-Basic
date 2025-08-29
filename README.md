@@ -11,6 +11,7 @@ A beginner-friendly repository to learn and practice TypeScript fundamentals.
 ## Getting Started
 
 1. **Clone the repository:**
+
     ```bash
     git clone https://github.com/sajjadjim/Typescript-Basic.git
     ```
@@ -27,6 +28,7 @@ A beginner-friendly repository to learn and practice TypeScript fundamentals.
 
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/)
 - [TypeScript Playground](https://www.typescriptlang.org/play)
+
 
 ## License
 
@@ -56,7 +58,7 @@ To run PHP files locally using XAMPP:
 
 ```php
 <?php
-echo "Hello, World!";
+echo "Hello, World! My name is Sajjad Hossain JIM";
 ?>
 ```
 
