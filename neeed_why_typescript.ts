@@ -1,7 +1,4 @@
-/**
- * Example: Library Management System in TypeScript
- * Demonstrates interfaces, classes, generics, enums, and type safety.
- */
+
 
 // Enum for Book Genres
 enum Genre {
