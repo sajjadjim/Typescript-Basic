@@ -60,4 +60,4 @@ echo "Hello, World!";
 ?>
 ```
 
-Place this file in your project folder inside `htdocs` and access it as described above.
+Place this file in your project folder inside `htdocs` and then create a folder that file  and access it as described above.
