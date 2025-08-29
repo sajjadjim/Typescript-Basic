@@ -12,7 +12,7 @@ A beginner-friendly repository to learn and practice TypeScript fundamentals.
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/Typescript-Basic.git
+    git clone https://github.com/sajjadjim/Typescript-Basic.git
     ```
 2. **Install dependencies:**
     ```bash
