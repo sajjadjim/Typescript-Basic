@@ -18,4 +18,4 @@ function fibonacciIterative(n: number): number {
   }
   return curr;
 }
-console.log(fibonacciIterative(10)); // Output: 55
+console.log(fibonacciIterative(10)); // Output: 55 //
