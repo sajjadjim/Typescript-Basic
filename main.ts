@@ -1,5 +1,5 @@
 // Variable with type
-let userName: string = "SAJJAD HOSSAIN Jim";
+let userName: string = "s. m. SAJJAD HOSSAIN Jim";
 let age: number = 25;
 let isActive: boolean = true;
 
