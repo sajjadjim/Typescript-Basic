@@ -1,6 +1,4 @@
-# Ruby file example
 
-# This is a simple Ruby program that prints a message
 def greet_user(name)
   puts "Hello, #{name}! Welcome to the Ruby world."
 end
