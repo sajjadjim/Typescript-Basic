@@ -25,7 +25,7 @@ def calculator
                num1 / num2
              end
            else
-             "Invalid operator!"
+             "Invalid operator!!!"
            end
 
   puts "Result: #{result}"
