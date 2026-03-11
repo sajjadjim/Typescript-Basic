@@ -1,24 +1,35 @@
 # calculator.rb
-def add(a, b)
-  a + b
+
+def calculator
+  puts "Welcome to Ruby Calculator!"
+  print "Enter first number: "
+  num1 = gets.chomp.to_f
+
+  print "Enter an operator (+, -, *, /): "
+  operator = gets.chomp
+
+  print "Enter second number: "
+  num2 = gets.chomp.to_f
+
+  result = case operator
+           when "+"
+             num1 + num2
+           when "-"
+             num1 - num2
+           when "*"
+             num1 * num2
+           when "/"
+             if num2 == 0
+               "Error: Division by zero!"
+             else
+               num1 / num2
+             end
+           else
+             "Invalid operator!!!"
+           end
+
+  puts "Result: #{result}"
 end
 
-def subtract(a, b)
-  a - b
-end
-
-def multiply(a, b)
-  a * b
-end
-
-def divide(a, b)
-  return "Cannot divide by zero" if b == 0
-  a / b.to_f
-end
-
-# Test the calculator
-puts "Addition: 5 + 3 = #{add(5, 3)}"
-puts "Subtraction: 5 - 3 = #{subtract(5, 3)}"
-puts "Multiplication: 5 * 3 = #{multiply(5, 3)}"
-puts "Division: 5 / 3 = #{divide(5, 3)}"
-puts "Division by zero: #{divide(5, 0)}"
+# Run the calculator
+calculator
