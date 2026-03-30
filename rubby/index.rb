@@ -1,6 +1,6 @@
 
 def greet_user(name)
-  puts "Hello, #{name}! Welcome to the Ruby world."
+  puts "Hello, #{name}! Welcome to the Ruby world. jim"
 end
 
 # Calling the method
